@@ -185,7 +185,7 @@ def south():
 
 print("You are in a closed room with no doors. You look around and see a window to the south. There is a rock in your hand, a needle in your pocket, and a backpack on your back\n")
 num=input("Type in begin to begin: ")
-ch1 = str(input("Where do you want to go:\n"))
+ch1 = str(input("Where do you want to go:\n(Go South)"))
 
 if num == 'begin':
     num == choices3()
